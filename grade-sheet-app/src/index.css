@@ -1,0 +1,118 @@
+/* ********* */
+/* Variables */
+/* ********* */ 
+:root
+{
+    --main-bg-colour: #d5def5;
+
+    --box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.315);
+}
+
+/* ********************** */
+/* Universal Page Styling */
+/* ********************** */
+*
+{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body
+{
+    background: var(--main-bg-colour);
+    background-size: contain;
+    overflow: auto;
+}
+
+/* ***************** */
+/* Main Body Styling */
+/* ***************** */
+.body-container
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.content-container
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 400px;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/* ************ */
+/* Form Styling */
+/* ************ */
+
+.form-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form
+{
+    background-color: var(--main-bg-colour);
+    backdrop-filter: blur(100px);
+    width: 960px;
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    padding-top: 0px; 
+}
+
+.form-box
+{
+    background-color: var(--colour3);
+    box-shadow: var(--box-shadow);
+    box-sizing: border-box;
+    position: relative;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.form-input
+{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border: solid white; 
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+input[type="submit"]
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: var(--main-bg-colour);
+    padding: 10px;
+    color: white;
+    height: 60px;
+    width: 150px;
+    border: solid;
+    border-radius: 25px;
+
+    font-size:large;
+    font-weight: bold;
+    
+}
+
+/* ********************* */
+/* Page Specific Styling */
+/* ********************* */
+
